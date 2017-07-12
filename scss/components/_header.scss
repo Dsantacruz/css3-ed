@@ -1,0 +1,13 @@
+.main-header{
+    background: $color1;
+    display: flex;
+
+    .l-container{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.logo{
+    width: 60%;
+}

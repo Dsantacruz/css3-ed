@@ -1,0 +1,33 @@
+//paleta de color
+$color1: #514077;
+$color2: #924992;
+$color3: #FFAD01;
+$black: #111;
+$white: #fff;
+
+// Fuentes
+// Titulos: oswald
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300);
+$font-title: 'Oswald', sans-serif;
+// Textos: Lato
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300);
+$font-text: 'Lato', sans-serif;
+
+// Grosor de la fuente:
+$light: 300;
+$normal: 400;
+
+//layout
+$max-width: 1200px;
+
+//Off canvas
+$offcanvas-width: 15em;
+
+//imports
+@import "components/base";
+@import "components/header";
+@import "components/menu";
+@import "components/banner";
+@import "components/buttons";
+
+//01:41:03
